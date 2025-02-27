@@ -32,11 +32,21 @@ So at the end of my training (100000), my average time on each circuit is 14s
 
 # MouseMaze
 ## No Random map
+### Context
+### My solution
+### Reward
 ### Result
 <img src="https://github.com/user-attachments/assets/c5dd3109-67f2-4f96-b4b2-5ff0f12a2211" alt="CleanShot 2025-02-27 at 11 22 06" width="300" height="300">
 
+### Improvement
+
 
 ## Random map
+### Context
+### My solution
+### Reward
+### Result
+### Improvement
 
 # Snake
 ### Context
