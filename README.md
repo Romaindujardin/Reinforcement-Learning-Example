@@ -19,7 +19,7 @@ Nevertheless, I decided to use unity 3D for this, on version 2023.2.20f1.
 ### My solution
 **First Step** : I remade the snake game, adding a floor, 4 walls, a head, an apple and the body in a prefab. Then in the code I defined the spawn of the head and the apple inside the walls and defined that if the head touches a wall then we respawn. and logically when the head eats an apple, I gain part of my body and if the head eats his body I die. I also look for the spawn of each object if the place is free. then created an empty gameobject “SnakeAgent”, to which I assign each element I defined earlier (apple/head/body/wall). For now, it moves randomly
 
-**Second Step** : 
+**Second Step** : Setting up the ML-Agents environment, I imported the ML-Agents package into unity, and assigned the “Decision Requester” and “Behavior Parameter” modules. The former is used to send a decision on the action the agent should take (direction), and the latter is used to define an agent to control my snake (in learning mode, I don't define any).
 ### Reward
 - If the snake eats the apple: +10
 - If the snake moves closer to the apple: 0.01 / (distance2apple) + 1. So the closer the snake gets to the apple, the more reward it gets.
