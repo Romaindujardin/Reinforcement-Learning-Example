@@ -14,6 +14,8 @@ So, the project was given to me functional (the game) with movement using the ke
 
 # Snake
 ### Context
+The aim of this project was to set up an agent on unity with ML-Agents. I had carte blanche on the choice of game and 2D or 3D. So I decided to go for a 2D game I've played a lot, SNAKE.
+Nevertheless, I decided to use unity 3D for this, on version 2023.2.20f1.
 ### My solution
 ### Reward
 - If the snake eats the apple: +10
