@@ -8,6 +8,12 @@ So, the project was given to me functional (the game) with movement using the ke
 
 ### My solution
 ### Reward
+- If the car has a collision: -1000
+- If the car turns around: -50
+- If the car stays on the track: +10
+- If the car moves forward, reward based on speed, so the faster the car goes, the bigger the reward. Otherwise -1 (because the car stays in place)
+- If the car brakes: -0.5
+- If the car drives at a suitable speed: +10 (to prevent the car from driving as fast as possible to have a big reward even if it hits a wall)
 ### Result
 **First race**
 
