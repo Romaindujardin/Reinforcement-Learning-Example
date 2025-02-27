@@ -4,7 +4,9 @@ Some little project about reinforcement learning, about how to setup and build a
 ### Context
 This is a 2D circuit car game in python, the objective is to move the car forward without colliding (which makes us start again), the objective of this project is to set up an agent who can do 3 laps as quickly as possible without colliding
 
-So, the project was given to me functional (the game) with movement using the keyboard arrows
+So, the project was given to me functional (the game) with movement using the keyboard arrows, The car has 5 sensors in front of it, which send the distance from the walls, we also have information on the speed.
+
+The overall goal is to set up an environment, when an agent can train. So in the end the goal of the agent is first to finish the circuit 3 times, and secondly to be as fast as possible
 
 ### My solution
 ### Reward
