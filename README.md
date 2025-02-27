@@ -11,7 +11,7 @@ The overall goal is to set up an environment, when an agent can train. So in the
 ### My solution
 **First Step** : I restructured the code to remove the manual movement with the arrows, I kept all the basic methods such as the sensors which return the distance in front of the car, the definition of the car with the acceleration, the turn, the circuit system, the reset, the collisions.
 
-**Second Step** :
+**Second Step** : I then set up a gymnasium environment in this code, in which I define everything the agent needs to know to learn. It is therefore in this environment that I put the map functions for the circuit with pygames, creation of the car, I also set up an observation space, this is a set of data that the agent receives and which allows it to make decisions on what it observes. In this observation space, I put the distance that I receive from the sensors in front. In the gymnasium environment I also put the reset function and the possible actions (forward, backward, left and right). And this is also where I set up my reward system
 ### Reward
 - If the car has a collision: -1000
 - If the car turns around: -50
