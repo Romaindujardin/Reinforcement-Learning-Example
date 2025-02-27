@@ -6,7 +6,12 @@ It's a simple 2D car game, with the aim of completing 3 laps as quickly as possi
 
 So, the project was given to me functional (the game) with movement using the keyboard arrows
 
-### Solution
+### My solution
+### Reward
+### Result
+![CleanShot 2025-02-27 at 11 01 13](https://github.com/user-attachments/assets/5ab192b3-16af-4456-8411-d398ace55aa5)
+
+### Improvement
 
 # MouseMaze
 ## No Random map
