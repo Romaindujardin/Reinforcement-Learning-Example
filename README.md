@@ -24,29 +24,7 @@ However, I chose to use Unity 3D for this project, specifically version 2023.2.2
 **Third Step** : I set up the reward system, added a timer and a high score display, and duplicated the game environment to speed up training. Then, I launched the training using the command "mlagents-learn config/snake_config.yaml --run-id=snake --train #to train an agent "snake" is the name of this one" while running the game in Unity.
 ### Reward
 - If the snake eats the apple: +10
-- If the snake moves closer to the apple, it receives a small reward based on the formula: 
-0.01
-/
-(
-d
-i
-s
-t
-a
-n
-c
-e
-T
-o
-A
-p
-p
-l
-e
-+
-1
-)
-0.01/(distanceToApple+1). This encourages the agent to approach the apple efficiently. So the closer the snake gets to the apple, the more reward it gets.
+- If the snake moves closer to the apple, it receives a small reward based on the formula: 0.01/(distanceToApple+1). This encourages the agent to approach the apple efficiently. So the closer the snake gets to the apple, the more reward it gets.
 - If the snake runs into a wall: -1
 - If the snake eats its own body: -5
 ### Result
