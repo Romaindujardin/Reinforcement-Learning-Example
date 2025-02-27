@@ -11,21 +11,18 @@ So, the project was given to me functional (the game) with movement using the ke
 ### Result
 **First race**
 
-![CleanShot 2025-02-27 at 11 12 25](https://github.com/user-attachments/assets/84ef69da-e672-4fd8-9997-ea35f2641f32)
 <img src="https://github.com/user-attachments/assets/84ef69da-e672-4fd8-9997-ea35f2641f32" alt="CleanShot 2025-02-27 at 11 12 25" width="500" height="300">
 
 
 
 **Second race**
 
-![CleanShot 2025-02-27 at 11 07 04](https://github.com/user-attachments/assets/5c00dbda-a328-4a61-b19b-d41401e02da4)
-<img src="https://github.com/user-attachments/assets/5c00dbda-a328-4a61-b19b-d41401e02da4" alt="CleanShot 2025-02-27 at 11 07 04" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/5c00dbda-a328-4a61-b19b-d41401e02da4" alt="CleanShot 2025-02-27 at 11 07 04" width="500" height="300">
 
 
 **Third race**
 
-![CleanShot 2025-02-27 at 11 15 09](https://github.com/user-attachments/assets/7393f64c-978d-4aef-9178-bd1ac1a57445)
-<img src="https://github.com/user-attachments/assets/7393f64c-978d-4aef-9178-bd1ac1a57445" alt="CleanShot 2025-02-27 at 11 15 09" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/7393f64c-978d-4aef-9178-bd1ac1a57445" alt="CleanShot 2025-02-27 at 11 15 09" width="500" height="300">
 
 
 So at the end of my training (100000), my average time on each circuit is 14s
