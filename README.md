@@ -2,7 +2,7 @@
 Some little project about reinforcement learning, about how to setup and build an agent.
 # Junia Racer
 ### Context
-It's a simple 2D car game, with the aim of completing 3 laps as quickly as possible without touching the edges. If an edge is touched, the car starts again from the beginning, so you have to complete the 3 laps without colliding.
+This is a 2D circuit car game in python, the objective is to move the car forward without colliding (which makes us start again), the objective of this project is to set up an agent who can do 3 laps as quickly as possible without colliding
 
 So, the project was given to me functional (the game) with movement using the keyboard arrows
 
