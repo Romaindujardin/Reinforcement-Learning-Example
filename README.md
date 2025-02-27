@@ -35,6 +35,9 @@ However, I chose to use Unity 3D for this project, specifically version 2023.2.2
 **Second Step** : To set up the ML-Agents environment, I imported the ML-Agents package into Unity, I assigned the "Decision Requester" and "Behavior Parameter" module to "SnakeAgent", The first is responsible for requesting decisions on the agent’s actions (movement direction) and The second defines the behavior of the agent controlling the snake (in learning mode, I set it to 'None'). Finally, I replaced the random movement logic with actions dictated by the 'Decision Requester'.
 
 **Third Step** : I set up the reward system, added a timer and a high score display, and duplicated the game environment to speed up training. Then, I launched the training using the command "mlagents-learn config/snake_config.yaml --run-id=snake --train #to train an agent "snake" is the name of this one" while running the game in Unity.
+
+![CleanShot 2025-02-27 at 11 10 48@2x](https://github.com/user-attachments/assets/d787070d-1cb5-4161-b098-cd50315677fe)
+
 ### Reward
 - If the snake eats the apple: +10
 - If the snake moves closer to the apple, it receives a small reward based on the formula: 0.01/(distanceToApple+1). This encourages the agent to approach the apple efficiently. So the closer the snake gets to the apple, the more reward it gets.
