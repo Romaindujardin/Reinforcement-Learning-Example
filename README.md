@@ -17,7 +17,7 @@ So, the project was given to me functional (the game) with movement using the ke
 The aim of this project was to set up an agent on unity with ML-Agents. I had carte blanche on the choice of game and 2D or 3D. So I decided to go for a 2D game I've played a lot, SNAKE.
 Nevertheless, I decided to use unity 3D for this, on version 2023.2.20f1.
 ### My solution
-**First Step** : I remade the snake game, adding a floor, 4 walls, a head, an apple and the body in a prefab. Then in the code I defined the spawn of the head and the apple inside the walls and defined that if the head touches a wall then we respawn. and logically when the head eats an apple, I gain part of my body and if the head eats his body I die. I also look for the spawn of each object if the place is free.
+**First Step** : I remade the snake game, adding a floor, 4 walls, a head, an apple and the body in a prefab. Then in the code I defined the spawn of the head and the apple inside the walls and defined that if the head touches a wall then we respawn. and logically when the head eats an apple, I gain part of my body and if the head eats his body I die. I also look for the spawn of each object if the place is free. then created an empty gameobject “SnakeAgent”, to which I assign each element I defined earlier (apple/head/body/wall). For now, it moves randomly
 
 **Second Step** : 
 ### Reward
