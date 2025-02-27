@@ -13,7 +13,7 @@ The overall goal is to set up an environment, when an agent can train. So in the
 
 **Second Step** : I then set up a gymnasium environment in this code, in which I define everything the agent needs to know to learn. It is therefore in this environment that I put the map functions for the circuit with pygames, creation of the car, I also set up an observation space, this is a set of data that the agent receives and which allows it to make decisions on what it observes. In this observation space, I put the distance that I receive from the sensors in front. In the gymnasium environment I also put the reset function and the possible actions (forward, backward, left and right). And this is also where I set up my reward system.
 
-**Third Step** :
+**Third Step** : once my environment is defined, I set up my training and test file. So in this file I create an environment from the one I defined previously and with stable baselines 3 I define a PPO agent that will learn to play based on the rewards and observations it receives
 ### Reward
 - If the car has a collision: -1000
 - If the car turns around: -50
