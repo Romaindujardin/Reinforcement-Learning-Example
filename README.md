@@ -14,17 +14,39 @@ So, the project was given to me functional (the game) with movement using the ke
 
 # Snake
 ### Context
-The aim of this project was to set up an agent on unity with ML-Agents. I had carte blanche on the choice of game and 2D or 3D. So I decided to go for a 2D game I've played a lot, SNAKE.
-Nevertheless, I decided to use unity 3D for this, on version 2023.2.20f1.
+The aim of this project was to set up an agent on unity with ML-Agents. I had free rein on the choice of game and whether it should be 2D or 3D. So I decided to recreate a 2D game I played a lot: SNAKE.
+However, I chose to use Unity 3D for this project, specifically version 2023.2.20f1.
 ### My solution
-**First Step** : I remade the snake game, adding a floor, 4 walls, a head, an apple and the body in a prefab. Then in the code I defined the spawn of the head and the apple inside the walls and defined that if the head touches a wall then we respawn. and logically when the head eats an apple, I gain part of my body and if the head eats his body I die. I also look for the spawn of each object if the place is free. then created an empty gameobject “SnakeAgent”, to which I assign each element I defined earlier (apple/head/body/wall). For now, it moves randomly
+**First Step** : I recreated the Snake game by adding a floor, four walls, a snake head, an apple, and a body prefab. In the code, I implemented logic to spawn the snake's head and the apple within the walls. I also ensured that if the snake's head touches a wall, the game resets. And logically when the head eats an apple, I gain part of my body and if the head eats his body I die. I also ensure that objects spawn in unoccupied spaces. then created an empty gameobject “SnakeAgent”, to which I assign each element I defined earlier (apple/head/body/wall). At this stage, the snake moves randomly.
 
-**Second Step** : Setting up the ML-Agents environment, I imported the ML-Agents packages into unity, I assigned the "Decision Requester" and "Behavior Parameter" module, the first is therefore used to send a decision on the action that the agent must do (direction) and the second is used to define an agent to control my snake (in learning mode, I define none). and so then to finish on my side I change the movement operation which was on random and I say that we move only on the decisions of "Decision Requester"
+**Second Step** : To set up the ML-Agents environment, I imported the ML-Agents package into Unity, I assigned the "Decision Requester" and "Behavior Parameter" module to "SnakeAgent", The first is responsible for requesting decisions on the agent’s actions (movement direction) and The second defines the behavior of the agent controlling the snake (in learning mode, I set it to 'None'). Finally, I replaced the random movement logic with actions dictated by the 'Decision Requester'.
 
-**Third Step** : I set up the rewards, I also added a timer and a highscore and I duplicate the game environments so that learning is faster. Once that I start the learning with "mlagents-learn config/snake_config.yaml --run-id=snake --train #to train an agent "snake" is the name of this one" and I start playing game on unity
+**Third Step** : I set up the reward system, added a timer and a high score display, and duplicated the game environment to speed up training. Then, I launched the training using the command "mlagents-learn config/snake_config.yaml --run-id=snake --train #to train an agent "snake" is the name of this one" while running the game in Unity.
 ### Reward
 - If the snake eats the apple: +10
-- If the snake moves closer to the apple: 0.01 / (distance2apple) + 1. So the closer the snake gets to the apple, the more reward it gets.
+- If the snake moves closer to the apple, it receives a small reward based on the formula: 
+0.01
+/
+(
+d
+i
+s
+t
+a
+n
+c
+e
+T
+o
+A
+p
+p
+l
+e
++
+1
+)
+0.01/(distanceToApple+1). This encourages the agent to approach the apple efficiently. So the closer the snake gets to the apple, the more reward it gets.
 - If the snake runs into a wall: -1
 - If the snake eats its own body: -5
 ### Result
@@ -32,8 +54,8 @@ Nevertheless, I decided to use unity 3D for this, on version 2023.2.20f1.
 
 In the end, at the end of my training (1000000), the best score obtained was 15.
 ### Improvement
-- adding rewards that increment when he eats an apple, the more he eats the more it pays off
-- Add bigger penalties if the snake hits a wall or eats its own body.
+- Adding incremental rewards when the snake eats an apple, making each apple more valuable as the game progresses.
+- Increasing penalties when the snake hits a wall or eats its own body, to discourage reckless movement.
 
 
 
