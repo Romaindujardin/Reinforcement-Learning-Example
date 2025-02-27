@@ -24,6 +24,9 @@ So, the project was given to me functional (the game) with movement using the ke
 ![CleanShot 2025-02-27 at 10 03 41](https://github.com/user-attachments/assets/d0d9d4ef-fcb3-453c-8c66-70f7b8a0b5ed)
 
 In the end, at the end of my training (1000000), the best score obtained was 15.
+### Improvement
+- adding rewards that increment when he eats an apple, the more he eats the more it pays off
+- Add bigger penalties if the snake hits a wall or eats its own body.
 
 
 
