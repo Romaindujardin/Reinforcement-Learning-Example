@@ -13,3 +13,5 @@ So, the project was given to me functional (the game) with movement using the ke
 ## Random map
 
 # Snake
+![CleanShot 2025-02-27 at 09 56 08](https://github.com/user-attachments/assets/fec81e11-6e7f-42f8-a246-5ffabeeb8f6c)
+
