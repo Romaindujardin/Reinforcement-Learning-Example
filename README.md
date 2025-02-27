@@ -12,7 +12,7 @@ So, the project was given to me functional (the game) with movement using the ke
 **First race**
 
 ![CleanShot 2025-02-27 at 11 12 25](https://github.com/user-attachments/assets/84ef69da-e672-4fd8-9997-ea35f2641f32)
-<img src="https://github.com/user-attachments/assets/84ef69da-e672-4fd8-9997-ea35f2641f32" alt="CleanShot 2025-02-27 at 11 12 25" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/84ef69da-e672-4fd8-9997-ea35f2641f32" alt="CleanShot 2025-02-27 at 11 12 25" width="500" height="300">
 
 
 
