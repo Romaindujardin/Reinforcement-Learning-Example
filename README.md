@@ -13,6 +13,9 @@ So, the project was given to me functional (the game) with movement using the ke
 ## Random map
 
 # Snake
+### Context
+### My solution
+### Reward
 ### Result
 ![CleanShot 2025-02-27 at 10 03 41](https://github.com/user-attachments/assets/d0d9d4ef-fcb3-453c-8c66-70f7b8a0b5ed)
 
