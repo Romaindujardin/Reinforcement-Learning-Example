@@ -46,7 +46,6 @@ However, I chose to use Unity 3D for this project, specifically version 2023.2.2
 
 **Third Step** : I set up the reward system, added a timer and a high score display, and duplicated the game environment to speed up training. Then, I launched the training using the command "mlagents-learn config/snake_config.yaml --run-id=snake --train #to train an agent "snake" is the name of this one" while running the game in Unity.
 
-![CleanShot 2025-02-27 at 11 10 48@2x](https://github.com/user-attachments/assets/d787070d-1cb5-4161-b098-cd50315677fe)
 <img src="https://github.com/user-attachments/assets/d787070d-1cb5-4161-b098-cd50315677fe" alt="CleanShot 2025-02-27 at 11 10 48@2x" width="200" height="300">
 
 
