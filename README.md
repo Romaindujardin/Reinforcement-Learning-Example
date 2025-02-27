@@ -10,6 +10,8 @@ The overall goal is to set up an environment, when an agent can train. So in the
 
 ### My solution
 **First Step** : I restructured the code to remove the manual movement with the arrows, I kept all the basic methods such as the sensors which return the distance in front of the car, the definition of the car with the acceleration, the turn, the circuit system, the reset, the collisions.
+
+**Second Step** :
 ### Reward
 - If the car has a collision: -1000
 - If the car turns around: -50
