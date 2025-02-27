@@ -22,6 +22,8 @@ So, the project was given to me functional (the game) with movement using the ke
 
 ![CleanShot 2025-02-27 at 11 15 09](https://github.com/user-attachments/assets/7393f64c-978d-4aef-9178-bd1ac1a57445)
 
+So at the end of my training (100000), my average time on each circuit is 14s
+
 
 ### Improvement
 
