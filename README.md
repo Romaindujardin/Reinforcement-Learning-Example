@@ -9,7 +9,12 @@ So, the project was given to me functional (the game) with movement using the ke
 ### My solution
 ### Reward
 ### Result
+**First race**
 ![CleanShot 2025-02-27 at 11 01 13](https://github.com/user-attachments/assets/5ab192b3-16af-4456-8411-d398ace55aa5)
+**Second race**
+![CleanShot 2025-02-27 at 11 07 04](https://github.com/user-attachments/assets/5c00dbda-a328-4a61-b19b-d41401e02da4)
+
+**Third race**
 
 ### Improvement
 
